@@ -24,6 +24,6 @@ pip install wheel
 pip3 install -r requirements.txt
 ```
 
-if your are a windows and Linux or macos user You may not face issue but incase if you got any error past the error in google and you may can find a solution at Stackoverflow
+In case you get any errors, try Stackoverflow.
 
 please follow my instagram @thanseeftsf and ask any doubts.
