@@ -1,46 +1,29 @@
-# Project Title
-
-## Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+# Movie Recommendation system
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
-
-## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+This project made with an ML model and Streamlit service to build a movie recommendation system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+You Must need Python3 and Python-Env installed on your pc.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+A step by step installation follow these methods.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. install wheel
 
 ```
-until finished
+pip install wheel
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+2. install all the requirements
 
-## Usage <a name = "usage"></a>
+```
+pip3 install -r requirements.txt
+```
 
-Add notes about how to use the system.
+if your are a windows and Linux or macos user You may not face issue but incase if you got any error past the error in google and you may can find a solution at Stackoverflow
+
+please follow my instagram @thanseeftsf and ask any doubts.
