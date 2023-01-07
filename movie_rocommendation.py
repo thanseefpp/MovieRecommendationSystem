@@ -55,14 +55,20 @@ if st.button("Get Result"):
         for movie in sorted_similarity_movies:
             index = movie[0]  # to get the index value
             title_from_index = movies_data[movies_data.index == index]['title'].values[0]
-            if (i <= 20):
+            if (i <= 22):
                 collection = {i: title_from_index}
                 dictionary.update(collection)
                 
                 i += 1
 
     recommend_movie_names()
+    st.subheader("Search Result :")
+    # st.write()
+    st.success(str(1) + '. ' + str(dictionary[1])) 
     
-    for item in range(1,len(dictionary)):
-        st.write(str(item) + '. ' + str(dictionary[item])) 
+    st.subheader("Suggested Movies for you :")
+    count = 1
+    for item in range(2,len(dictionary)):
+        st.write(str(count) + '. ' + str(dictionary[item]))
+        count += 1
                 
